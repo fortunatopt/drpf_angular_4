@@ -1,35 +1,35 @@
 <div class="col-lg-6 col-md-6 col-sm-6" *ngFor="let Person of People">
     <div class="profile">
       <div class="hover-content ">
-        <img class="img-responsive" alt="Our team" [src]="Person.PersonImage">
-        <div class="content-open content-center" *ngIf="Person.PersonGoogle || Person.PersonTwitter || Person.PersonLinkedIn || Person.PersonFacebook">
+        <img class="img-responsive" alt="Our team" [src]="Person.personImage">
+        <div class="content-open content-center" *ngIf="Person.personGoogle || Person.personTwitter || Person.personLinkedIn || Person.personFacebook">
           <ul class="circle-icons text-center icons-list">
-            <li *ngIf="Person.PersonGoogle">
-              <a href="https://plus.google.com/{{Person.PersonGoogle}}" Target="_blank" title="Follow me">
+            <li *ngIf="Person.personGoogle">
+              <a href="https://plus.google.com/{{Person.personGoogle}}" Target="_blank" title="Follow me">
                 <i class="fa fa-google-plus"></i>
               </a>
             </li>
-            <li *ngIf="Person.PersonTwitter">
-              <a href="https://twitter.com/{{Person.PersonTwitter}}" Target="_blank" title="Follow me">
+            <li *ngIf="Person.personTwitter">
+              <a href="https://twitter.com/{{Person.personTwitter}}" Target="_blank" title="Follow me">
                 <i class="fa fa-twitter"></i>
               </a>
             </li>
-            <li *ngIf="Person.PersonLinkedIn">
-              <a href="https://www.linkedin.com/in/{{Person.PersonLinkedIn}}" Target="_blank" title="Follow me">
+            <li *ngIf="Person.personLinkedIn">
+              <a href="https://www.linkedin.com/in/{{Person.personLinkedIn}}" Target="_blank" title="Follow me">
                 <i class="fa fa-linkedin"></i>
               </a>
             </li>
-            <li *ngIf="Person.PersonFacebook">
-              <a href="https://www.facebook.com/{{Person.PersonFacebook}}" Target="_blank" title="Follow me">
+            <li *ngIf="Person.personFacebook">
+              <a href="https://www.facebook.com/{{Person.personFacebook}}" Target="_blank" title="Follow me">
                 <i class="fa fa-facebook"></i>
               </a>
             </li>
           </ul>
         </div>
       </div>
-      <h3>{{Person.PersonName}}
-        <small>{{Person.PersonTitle}}</small>
+      <h3>{{Person.personName}}
+        <small>{{Person.personTitle}}</small>
       </h3>
-      <p>{{Person.PersonDescription}}</p>
+      <p>{{Person.personDescription}}</p>
     </div>
   </div>

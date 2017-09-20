@@ -1,0 +1,44 @@
+<div>
+    <section class="bg-19 bg-center bg-cover">
+      <div class="bg-filter-v2 filling-section">
+        <div class="v-center h-center text-center">
+          <div class="section container">
+            <h1 class="top-title">{{PageTitle}}</h1>
+            <p class="big-subtitle text-light w800">{{PageSubtitle}}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-lg">
+      <div class="container">
+        <!-- Tab panes -->
+        <div class="tab-content text-left">
+          <div class="tab-pane active" id="ideas">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-5 wow fadeInLeft">
+                <div class="space visible-sm"></div>
+                <img class="img-responsive" alt="about us" src="assets/img/sitephotos/connections.jpg">
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-7 wow fadeInRight">
+                <h2>Helpful Links to External Organizations</h2>
+                <div class="space-sm"></div>
+                <ul class="info-list md-list style i-primary" *ngFor="let link of Links">
+                  <li>
+                    <i class="fa fa-play"></i><a href="{{link.linkURL}}" target="_blank">{{link.linkName}}{{link.linkSub}}</a></li>
+                  <div class="space-sm"></div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--===/END      MAIN WRAP     ===-->
+    <!--===    BACKGROUND IMAGE     ===-->
+    <section class="bg-9 bg-center bg-fixed">
+      <h5 class="sr-only">Picture of Apple Macbook Air</h5>
+      <div class="filling-section bg-filter-v1"></div>
+    </section>
+    <!--===/END      BACKGROUND IMAGE     ===-->
+  
+  </div>
