@@ -1,0 +1,58 @@
+<nav class="navbar navbar-trn navbar-fixed-top" role="navigation" id="navbarSettings">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+          </button>
+      <a class="navbar-brand visible-lg" href="#/">Donor Recipient Partnership|<span class="text-primary">Foundation</span></a>
+      <a class="navbar-brand hidden-lg" href="#/">DRP|<span class="text-primary">Foundation</span></a>
+    </div>
+    <!-- <nav-bar menus='menus'></nav-bar> -->
+    <app-nav-bar></app-nav-bar>
+  </div>
+</nav>
+<!-- If navbar is fixed to top and it has the class navbar-default or navbar-inverse this div will add space below the navbar-->
+<div id="navbarSpaceBottom"></div>
+<!--===/END    Navbar     ===-->
+<!-- ng View Begin -->
+<router-outlet></router-outlet>
+<!-- ng View End -->
+<!--===    SCRIPTS     ===-->
+<!--Back to top-->
+<a href="#" class="back-to-top">
+        <i class="fa fa-angle-up"></i>
+    </a>
+<!--===    FOOTER     ===-->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+
+        <app-footer-contact-section></app-footer-contact-section>
+
+        <div class="space-sm visible-sm visible-xs"></div>
+        <app-footer-links-section></app-footer-links-section>
+
+        <!-- <footer-links-section footerlinks='footerlinks'></footer-links-section> -->
+        <div class="space-sm visible-sm visible-xs"></div>
+
+        <app-footer-about-follow-section></app-footer-about-follow-section>
+        <!-- <footer-about-follow-section footeraboutfollow='footeraboutfollow'></footer-about-follow-section> -->
+        <div class="container">
+          <div class="row">
+            <div ng-show="!user" ng-cloak class="pull-right">
+              <a href="#/login">Login</a>
+            </div>
+            <div ng-show="user" ng-cloak class="pull-right">
+              <!-- <a ng-click="logout()">Logout</a> - <span>{{user.name}}</span> -->
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</footer>

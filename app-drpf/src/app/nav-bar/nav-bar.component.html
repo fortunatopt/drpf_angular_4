@@ -1,0 +1,13 @@
+<div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+	<ul class="nav navbar-nav navbar-right">
+		<li class="dropdown" *ngFor="let Menu of Menus">
+      <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0">{{Menu.menuName}} 
+		</a>
+			<ul class="dropdown-menu">
+				<li *ngFor="let MenuItem of Menu.menuItems">
+					<a href="{{MenuItem.itemURL}}">{{MenuItem.menuName}}</a>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</div>

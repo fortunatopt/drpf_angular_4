@@ -1,0 +1,13 @@
+<div class="col-md-4 col-lg-4  col-xs-12">
+    <h4>About Us</h4>
+    <p><span [innerHTML]="AboutFollowData.aboutustext"></span></p>
+    <div class="space-sm"></div>
+    <h4>Follow Us</h4>
+    <ul class="circle-icons icons-list">
+        <li *ngFor="let followusitem of AboutFollowData.followusitems" ng-show="followusitem.itemURL">
+            <a href="{{followusitem.itemURL}}" target="_blank" title="{{followusitem.itemName}}">
+                <i class="{{followusitem.itemClass}}"></i>
+            </a>
+        </li>
+    </ul>
+</div>

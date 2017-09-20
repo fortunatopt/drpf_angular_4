@@ -1,0 +1,66 @@
+<div>
+	<section class="bg-7 bg-centerTop70 bg-cover">
+		<div class="bg-filter sTop">
+			<div class="container">
+				<div class="jumbotron trn v-center">
+					
+					<div class="media">
+						<div class="media-left">
+							<img class="pull-left media-object"src="assets/img/logos/Logo_Sans_Circle.png" alt="Donor Recipient Partnership Foundation">
+						</div>
+						<div class="media-body">
+							<h1>We Can All Help</h1>
+				
+							<div class="space-sm"></div>
+							<p>To educate, bring awareness, facilitate, and ease the financial burden of the partnership between donor and recipient.</p>
+
+
+
+						</div>
+					</div>
+					<div class="space-sm"></div>
+					<ul class="list-inline">
+						<li>
+							<a href="#/programs" class="btn btn-default-trn btn-xlg scroll"><i class="fa fa-paper-plane-o"></i>Learn More</a>
+						</li>
+						<li>
+                            <a href="http://donate.donorrecipientpartnershipfoundation.org/" class="btn btn-primary btn-xlg scroll" target="_blank"><i class="fa fa-bolt"></i>Donate Now</a>
+						</li>                        
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--===/END      HEADER     ===-->
+
+	<section class="section bg-grey">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-lg-4 col-sm-6 wow fadeInLeft" data-wow-delay="0.8s">
+					<div class="news">
+						<img class="img-responsive" [src]="Article.articleImage" alt="Sponsoring the Partnership Between Living Donors & Recipients">
+						<h3>{{Article.articleName}}</h3>
+						<em>{{Article.articleDate}}</em>
+						<p><span [innerHTML]="Article.articleShort"></span></p>
+						<a href="#/news" class="btn btn-default-trn-v2">Read more
+							<i class="fa fa-angle-double-right"></i>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-4 col-lg-4 col-sm-6 wow fadeInLeft" data-wow-delay="0.6s">
+					<div class="news">
+						<img class="img-responsive" [src]="Program.image" alt="Program Picture">
+						<h3>{{Program.title}}</h3>
+						<em>One of the things we do...</em>
+						<p><span [innerHTML]="Program.description"></span></p>
+						<a href="#/programs" class="btn btn-default-trn-v2">Read more
+							<i class="fa fa-angle-double-right"></i>
+						</a>
+					</div>
+				</div>
+				<!-- Facebook Feed-->
+				<!-- <facebook-feed></facebook-feed> -->
+			</div>
+		</div>
+	</section>
+</div>
