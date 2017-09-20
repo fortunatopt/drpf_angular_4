@@ -1,0 +1,37 @@
+<!--
+<p>
+  team works!<br>
+  <app-person-leader></app-person-leader><br>
+  <app-person-team-member></app-person-team-member>
+</p>
+-->
+<div>
+  <section class="bg-11 bg-center bg-cover">
+    <div class="bg-filter-v2 filling-section">
+      <div class="v-center h-center text-center">
+        <div class="section container">
+          <h1 class="top-title">{{PageTitle}}</h1>
+          <p class="big-subtitle text-light w800">{{PageSubtitle}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container section-lg">
+    <div class="space"></div>
+    <div class="row profile-grid">
+      <app-person-leader></app-person-leader>
+    </div>
+  </section>
+
+  <section class="bg-grey section-lg team-grid">
+    <div class="container">
+      <h2 class="big-title text-center">Awesome people from our team</h2>
+      <p class="big-subtitle text-center">We've built a great team of caring individuals who are passionate about helping people.</p>
+      <div class="space-lg"></div>
+      <div class="row">
+        <app-person-team-member></app-person-team-member>
+      </div>
+    </div>
+  </section>
+</div>

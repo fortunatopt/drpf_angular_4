@@ -18,7 +18,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 1,
         'SortField': 1,
         'menuName': 'Our Mission',
-        'itemURL': '#/mission',
+        'itemURL': 'mission',
         'isActive': true
       }, {
         'Parent': 1,
@@ -27,7 +27,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 1,
         'SortField': 2,
         'menuName': 'Our Team',
-        'itemURL': '#/team',
+        'itemURL': 'team',
         'isActive': true
       }],
       'Id': 1,
@@ -45,7 +45,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 2,
         'SortField': 1,
         'menuName': 'Our Programs',
-        'itemURL': '#/programs',
+        'itemURL': 'programs',
         'isActive': true
       }, {
         'Parent': 2,
@@ -54,7 +54,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 2,
         'SortField': 2,
         'menuName': 'Our Impact',
-        'itemURL': '#/impact',
+        'itemURL': 'impact',
         'isActive': true
       }, {
         'Parent': 2,
@@ -63,7 +63,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 2,
         'SortField': 3,
         'menuName': 'About Kidney Transplants',
-        'itemURL': '#/kidneytransplant',
+        'itemURL': 'kidneytransplant',
         'isActive': true
       }, {
         'Parent': 2,
@@ -72,7 +72,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 2,
         'SortField': 4,
         'menuName': 'About Liver Transplants',
-        'itemURL': '#/livertransplant',
+        'itemURL': 'livertransplant',
         'isActive': true
       }, {
         'Parent': 2,
@@ -81,7 +81,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 2,
         'SortField': 5,
         'menuName': 'About Lung Transplants',
-        'itemURL': '#/lungtransplant',
+        'itemURL': 'lungtransplant',
         'isActive': true
       }, {
         'Parent': 2,
@@ -90,7 +90,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 2,
         'SortField': 6,
         'menuName': 'Other Transplants',
-        'itemURL': '#/othertransplant',
+        'itemURL': 'othertransplant',
         'isActive': true
       }],
       'Id': 2,
@@ -108,7 +108,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 3,
         'SortField': 1,
         'menuName': 'Become a Volunteer',
-        'itemURL': '#/volunteer',
+        'itemURL': 'volunteer',
         'isActive': true
       }],
       'Id': 3,
@@ -126,7 +126,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 4,
         'SortField': 1,
         'menuName': 'In the News',
-        'itemURL': '#/news',
+        'itemURL': 'news',
         'isActive': true
       }, {
         'Parent': 4,
@@ -135,7 +135,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 4,
         'SortField': 2,
         'menuName': 'Stories',
-        'itemURL': '#/stories',
+        'itemURL': 'stories',
         'isActive': true
       }, {
         'Parent': 4,
@@ -144,7 +144,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 4,
         'SortField': 3,
         'menuName': 'Our Sponsors',
-        'itemURL': '/#/sponsors',
+        'itemURL': 'sponsors',
         'isActive': true
       }, {
         'Parent': 4,
@@ -153,7 +153,7 @@ export class NavBarComponent implements OnInit {
         'ParentId': 4,
         'SortField': 3,
         'menuName': 'Links',
-        'itemURL': '#/links',
+        'itemURL': 'links',
         'isActive': true
       }],
       'Id': 4,
@@ -172,7 +172,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 1,
     //     'menuName': 'Admin Home',
-    //     'itemURL': '#/Admin/',
+    //     'itemURL': 'Admin/',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -181,7 +181,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 2,
     //     'menuName': 'Footer',
-    //     'itemURL': '#/Admin/footer',
+    //     'itemURL': 'Admin/footer',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -190,7 +190,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 3,
     //     'menuName': 'Links',
-    //     'itemURL': '#/Admin/links',
+    //     'itemURL': 'Admin/links',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -199,7 +199,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 4,
     //     'menuName': 'Menus',
-    //     'itemURL': '#/Admin/menu',
+    //     'itemURL': 'Admin/menu',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -208,7 +208,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 5,
     //     'menuName': 'Minutes',
-    //     'itemURL': '#/Admin/minutes',
+    //     'itemURL': 'Admin/minutes',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -217,7 +217,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 6,
     //     'menuName': 'News',
-    //     'itemURL': '#/Admin/news',
+    //     'itemURL': 'Admin/news',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -226,7 +226,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 7,
     //     'menuName': 'Programs',
-    //     'itemURL': '#/Admin/programs',
+    //     'itemURL': 'Admin/programs',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -235,7 +235,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 8,
     //     'menuName': 'Sponsors',
-    //     'itemURL': '#/Admin/sponsor',
+    //     'itemURL': 'Admin/sponsor',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -244,7 +244,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 9,
     //     'menuName': 'Stories',
-    //     'itemURL': '#/Admin/stories',
+    //     'itemURL': 'Admin/stories',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -253,7 +253,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 10,
     //     'menuName': 'Team',
-    //     'itemURL': '#/Admin/team',
+    //     'itemURL': 'Admin/team',
     //     'isActive': true
     //   }, {
     //     'Parent': 23,
@@ -262,7 +262,7 @@ export class NavBarComponent implements OnInit {
     //     'ParentId': 23,
     //     'SortField': 11,
     //     'menuName': 'Volunteers',
-    //     'itemURL': '#/Admin/volunteers',
+    //     'itemURL': 'Admin/volunteers',
     //     'isActive': true
     //   }],
     //   'Id': 23,

@@ -7,11 +7,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterContactSectionComponent } from './footer-contact-section/footer-contact-section.component';
 import { FooterAboutFollowSectionComponent } from './footer-about-follow-section/footer-about-follow-section.component';
 import { FooterLinksSectionComponent } from './footer-links-section/footer-links-section.component';
+import { MissionComponent } from './mission/mission.component';
+import { TeamComponent } from './team/team.component';
+import { PersonLeaderComponent } from './person-leader/person-leader.component';
+import { PersonTeamMemberComponent } from './person-team-member/person-team-member.component';
 
 const routes: Routes = [
   {
@@ -27,8 +30,12 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
-    path: 'register',
-    component: RegisterComponent
+    path: 'mission',
+    component: MissionComponent
+  },
+  {
+    path: 'team',
+    component: TeamComponent
   }
 ];
 
@@ -37,11 +44,14 @@ const routes: Routes = [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    RegisterComponent,
     NavBarComponent,
     FooterContactSectionComponent,
     FooterAboutFollowSectionComponent,
-    FooterLinksSectionComponent
+    FooterLinksSectionComponent,
+    MissionComponent,
+    TeamComponent,
+    PersonLeaderComponent,
+    PersonTeamMemberComponent
   ],
   imports: [
     BrowserModule,
