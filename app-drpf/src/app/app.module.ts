@@ -15,6 +15,7 @@ import { MissionComponent } from './mission/mission.component';
 import { TeamComponent } from './team/team.component';
 import { PersonLeaderComponent } from './person-leader/person-leader.component';
 import { PersonTeamMemberComponent } from './person-team-member/person-team-member.component';
+import { LinksComponent } from './links/links.component';
 
 const routes: Routes = [
   {
@@ -36,6 +37,10 @@ const routes: Routes = [
   {
     path: 'team',
     component: TeamComponent
+  },
+  {
+    path: 'links',
+    component: LinksComponent
   }
 ];
 
@@ -51,7 +56,8 @@ const routes: Routes = [
     MissionComponent,
     TeamComponent,
     PersonLeaderComponent,
-    PersonTeamMemberComponent
+    PersonTeamMemberComponent,
+    LinksComponent
   ],
   imports: [
     BrowserModule,
